@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.3; }
+
+.smp-title-A {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #474453; }
+
+.smp-title-B {
+  font-size: 1.3em;
+  font-weight: 800;
+  color: #474453; }
+
+.smp-text-A {
+  font-size: 1em;
+  font-weight: 700;
+  color: #474453; }
+
+.smp-blockquote {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #474453;
+  text-align: center; }
+
+.smp-btn-A {
+  width: 180px;
+  height: auto;
+  padding: 15px;
+  background-color: #617080;
+  border-color: #617080; }
+  .smp-btn-A:focus {
+    box-shadow: 0 0 0 0.2rem rgba(97, 112, 128, 0.5); }
+  .smp-btn-A:hover {
+    background-color: #617080;
+    border-color: #617080; }
+
+#smp-header {
+  width: 100%;
+  height: auto;
+  padding: 30px 0; }
+  #smp-header .smp-logo {
+    width: 150px;
+    height: 80px;
+    background-color: pink; }
+  #smp-header .smp-nav {
+    padding: 30px 0; }
+    #smp-header .smp-nav .smp-nav-itens .smp-nav-item .smp-nav-link {
+      font-size: 1em;
+      font-weight: 800;
+      color: #474453;
+      text-decoration: none; }
+
+.smp-banner {
+  width: 100%;
+  height: 450px;
+  background-color: pink; }
+  .smp-banner .smp-text .smp-text-A {
+    line-height: 1.4;
+    margin-top: 30px; }
+
+.smp-about {
+  margin-top: 50px;
+  text-align: center; }
+  .smp-about .smp-about-text {
+    margin-bottom: 40px; }
+    .smp-about .smp-about-text .smp-title-B {
+      margin-top: 20px; }
+    .smp-about .smp-about-text .smp-text-A {
+      margin-top: 20px; }
+      .smp-about .smp-about-text .smp-text-A:first-of-type {
+        margin-top: 40px; }
+
+.smp-testimony {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #efefef; }
+  .smp-testimony .smp-title-B {
+    text-align: center; }
+  .smp-testimony .smp-text-A {
+    margin-top: 30px;
+    text-align: center; }
+  .smp-testimony .smp-carousel-testimony .d-flex {
+    margin-top: 20px; }
+  .smp-testimony .smp-carousel-testimony .smp-blockquote {
+    margin-top: 20px; }
+  .smp-testimony .carousel-indicators {
+    position: relative;
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* z-index: 15; */
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    margin-top: 60px; }
+    .smp-testimony .carousel-indicators li {
+      width: 12px;
+      height: 12px;
+      background-color: #dddddd;
+      border-radius: 100%;
+      cursor: pointer; }
+    .smp-testimony .carousel-indicators .active {
+      background-color: #6e6e6e; }
+
+/*# sourceMappingURL=main.css.map */

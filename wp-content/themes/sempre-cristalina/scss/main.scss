@@ -1,0 +1,153 @@
+@import "reset";
+
+// variables
+$margin-text    : 20px;
+$margin-section : 50px;
+
+//colors
+$c-black        : #000000;
+$c-black-lead   : #474453;
+$c-gray-blue    : #617080;
+$c-light-gray   : #efefef;
+
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+// Typograph
+.smp-title-A {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: $c-black-lead;
+}
+.smp-title-B {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: $c-black-lead;
+}
+.smp-text-A {
+    font-size: 1em;
+    font-weight: 700;
+    color: $c-black-lead;
+}
+.smp-blockquote {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: $c-black-lead;
+    text-align: center;
+}
+
+// Buttons
+.smp-btn-A {
+    width: 180px;
+    height: auto;
+    padding: 15px;
+    background-color: $c-gray-blue;
+    border-color: $c-gray-blue;
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(97,112,128,.5);
+    }
+    &:hover {
+        background-color: $c-gray-blue;
+        border-color: $c-gray-blue;
+    }
+}
+
+#smp-header {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    .smp-logo {
+        width: 150px;
+        height: 80px;
+        background-color: pink;
+    }
+    .smp-nav {
+        padding: 30px 0;
+        .smp-nav-itens {
+            .smp-nav-item {
+                .smp-nav-link {
+                    font-size: 1em;
+                    font-weight: 800;
+                    color: $c-black-lead;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.smp-banner {
+    width: 100%;
+    height: 450px;
+    background-color: pink;
+    .smp-text {
+        .smp-title-A {}
+        .smp-text-A {
+            line-height: 1.4;
+            margin-top: 30px;
+        }
+    }
+}
+.smp-about {
+    margin-top: $margin-section;
+    text-align: center;
+    .smp-about-text {
+        margin-bottom: 40px;
+        .smp-title-B{
+            margin-top: $margin-text;
+        }
+        .smp-text-A {
+            margin-top: $margin-text;
+            &:first-of-type {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+.smp-testimony {
+    margin-top: $margin-section;
+    padding: $margin-section;
+    background-color: $c-light-gray;
+    .smp-title-B {
+        text-align: center;
+    }
+    .smp-text-A {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .smp-carousel-testimony {
+        .d-flex {
+            margin-top: $margin-text;
+        }
+        .smp-blockquote {
+            margin-top: $margin-text;
+        }
+    }
+    .carousel-indicators {
+        position: relative;/* position: absolute; */
+        /* right: 0; */
+        /* bottom: 0; */
+        /* left: 0; */
+        /* z-index: 15; */
+        /* display: -webkit-box; */
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        height: 100%;
+        margin-top: 60px;
+        li {
+            width: 12px;
+            height: 12px;
+            background-color: #dddddd;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+        .active {
+            background-color: #6e6e6e;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-<section class="smp-services-section">
+<section id="smp-services" class="smp-services-section">
     <div class="container">
         <div class="d-flex flex-row justify-content-center">
             <div class="col-lg-10 text-center">

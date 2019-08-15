@@ -1,4 +1,4 @@
-<section class="smp-testimony">
+<section id="smp-testimony" class="smp-testimony-section">
     <div class="container">
         <div class="d-flex flex-row justify-content-center">
             <div class="col-lg-10">
@@ -12,32 +12,32 @@
                     <div class="smp-carousel-testimony carousel-inner">
                         <div class="carousel-item active">
                            <div class="d-flex flex-column align-items-start">
-                                <blockquote class="smp-blockquote col-8">“O Sr. Marcelo voltou várias vezes até a piscina estar cristalina e deu as dicas necessárias para a manutenção, sem ficar tentando vender serviço. Foi honesto e atencioso. Recomendo seu serviço”.</blockquote>
-                                <h3 class="smp-blockquote col-8">Ana Maria Ribeiro, no site Habitíssimo</h3>
+                                <blockquote class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">“O Sr. Marcelo voltou várias vezes até a piscina estar cristalina e deu as dicas necessárias para a manutenção, sem ficar tentando vender serviço. Foi honesto e atencioso. Recomendo seu serviço”.</blockquote>
+                                <h3 class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">Ana Maria Ribeiro, no site Habitíssimo</h3>
                            </div>
                             <div class="d-flex flex-column align-items-end">
-                                <blockquote class="smp-blockquote col-8">“Foram muito profissionais, passando informações adicionais de conhecimento, dando alternativas mais em conta de forma que nossos serviços melhorariam em qualidade e conforto para nossos clientes”.</blockquote>
-                                <h3 class="smp-blockquote col-8">Solange, no site Habitíssimo</h3>
+                                <blockquote class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">“Foram muito profissionais, passando informações adicionais de conhecimento, dando alternativas mais em conta de forma que nossos serviços melhorariam em qualidade e conforto para nossos clientes”.</blockquote>
+                                <h3 class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">Solange, no site Habitíssimo</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex flex-column align-items-start">
-                                <blockquote class="smp-blockquote col-8">“ Segundo carousel - O Sr. Marcelo voltou várias vezes até a piscina estar cristalina e deu as dicas necessárias para a manutenção, sem ficar tentando vender serviço. Foi honesto e atencioso. Recomendo seu serviço”.</blockquote>
-                                <h3 class="smp-blockquote col-8">Ana Maria Ribeiro, no site Habitíssimo</h3>
+                                <blockquote class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">“ Segundo carousel - O Sr. Marcelo voltou várias vezes até a piscina estar cristalina e deu as dicas necessárias para a manutenção, sem ficar tentando vender serviço. Foi honesto e atencioso. Recomendo seu serviço”.</blockquote>
+                                <h3 class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">Ana Maria Ribeiro, no site Habitíssimo</h3>
                             </div>
                             <div class="d-flex flex-column align-items-end">
-                                <blockquote class="smp-blockquote col-8">“ Segundo carousel - Foram muito profissionais, passando informações adicionais de conhecimento, dando alternativas mais em conta de forma que nossos serviços melhorariam em qualidade e conforto para nossos clientes”.</blockquote>
-                                <h3 class="smp-blockquote col-8">Solange, no site Habitíssimo</h3>
+                                <blockquote class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">“ Segundo carousel - Foram muito profissionais, passando informações adicionais de conhecimento, dando alternativas mais em conta de forma que nossos serviços melhorariam em qualidade e conforto para nossos clientes”.</blockquote>
+                                <h3 class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">Solange, no site Habitíssimo</h3>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="d-flex flex-column align-items-start">
-                                <blockquote class="smp-blockquote col-8">“ Terceiro carousel - O Sr. Marcelo voltou várias vezes até a piscina estar cristalina e deu as dicas necessárias para a manutenção, sem ficar tentando vender serviço. Foi honesto e atencioso. Recomendo seu serviço”.</blockquote>
-                                <h3 class="smp-blockquote col-8">Ana Maria Ribeiro, no site Habitíssimo</h3>
+                                <blockquote class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">“ Terceiro carousel - O Sr. Marcelo voltou várias vezes até a piscina estar cristalina e deu as dicas necessárias para a manutenção, sem ficar tentando vender serviço. Foi honesto e atencioso. Recomendo seu serviço”.</blockquote>
+                                <h3 class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">Ana Maria Ribeiro, no site Habitíssimo</h3>
                             </div>
                             <div class="d-flex flex-column align-items-end">
-                                <blockquote class="smp-blockquote col-8">“ Terceiro carousel - Foram muito profissionais, passando informações adicionais de conhecimento, dando alternativas mais em conta de forma que nossos serviços melhorariam em qualidade e conforto para nossos clientes”.</blockquote>
-                                <h3 class="smp-blockquote col-8">Solange, no site Habitíssimo</h3>
+                                <blockquote class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">“ Terceiro carousel - Foram muito profissionais, passando informações adicionais de conhecimento, dando alternativas mais em conta de forma que nossos serviços melhorariam em qualidade e conforto para nossos clientes”.</blockquote>
+                                <h3 class="smp-blockquote col-lg-8 col-md-8 col-sm-8 col-12">Solange, no site Habitíssimo</h3>
                             </div>
                         </div>
                     </div>

@@ -73,57 +73,183 @@ body {
   .smp-btn-A:hover {
     background-color: #617080;
     border-color: #617080; }
+  .smp-btn-A:active {
+    background-color: #617080;
+    border-color: #617080; }
 
 #smp-header {
   width: 100%;
   height: auto;
   padding: 30px 0; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    #smp-header {
+      position: fixed;
+      z-index: 9999;
+      background-color: white;
+      top: 0;
+      padding: 30px 0; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    #smp-header {
+      position: fixed;
+      z-index: 9999;
+      background-color: white;
+      top: 0;
+      padding: 30px 0; } }
   #smp-header .smp-logo {
     width: 150px;
     height: 80px;
     background-color: pink; }
   #smp-header .smp-nav {
     padding: 30px 0; }
-    #smp-header .smp-nav .smp-nav-itens .smp-nav-item .smp-nav-link {
-      font-size: 1em;
-      font-weight: 800;
-      color: #474453;
-      text-decoration: none; }
+    #smp-header .smp-nav .smp-nav-items {
+      display: flex;
+      justify-content: space-around; }
+      @media (min-width: 440px) and (max-width: 767px) {
+        #smp-header .smp-nav .smp-nav-items {
+          flex-direction: column; } }
+      @media (min-width: 320px) and (max-width: 439px) {
+        #smp-header .smp-nav .smp-nav-items {
+          flex-direction: column; } }
+      @media (min-width: 440px) and (max-width: 767px) {
+        #smp-header .smp-nav .smp-nav-items .smp-nav-item {
+          margin-top: 20px; } }
+      @media (min-width: 320px) and (max-width: 439px) {
+        #smp-header .smp-nav .smp-nav-items .smp-nav-item {
+          margin-top: 20px; } }
+      #smp-header .smp-nav .smp-nav-items .smp-nav-item .smp-nav-link {
+        font-size: 1em;
+        font-weight: 800;
+        color: #474453;
+        text-decoration: none; }
+        @media (min-width: 440px) and (max-width: 767px) {
+          #smp-header .smp-nav .smp-nav-items .smp-nav-item .smp-nav-link {
+            font-size: 1.1em; } }
+        @media (min-width: 320px) and (max-width: 439px) {
+          #smp-header .smp-nav .smp-nav-items .smp-nav-item .smp-nav-link {
+            font-size: 1.1em; } }
+
+.menu-desk {
+  transition: 400ms; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    .menu-desk {
+      position: absolute;
+      top: 0;
+      left: -400px;
+      width: 100vw;
+      height: 100vh;
+      background-color: #ffffff;
+      z-index: 1;
+      box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, 0.2); } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .menu-desk {
+      position: absolute;
+      top: 0;
+      left: -400px;
+      width: 100vw;
+      height: 100vh;
+      background-color: #ffffff;
+      z-index: 1;
+      box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, 0.2); } }
+
+.menu-desk.active {
+  left: 0;
+  top: 0;
+  padding-top: 50px;
+  transition: 400ms; }
+
+.menu-response {
+  display: none;
+  cursor: pointer;
+  z-index: 9;
+  transition: 400ms; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    .menu-response {
+      display: block; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .menu-response {
+      display: block; } }
+  .menu-response .smp-line {
+    width: 50px;
+    background-color: black;
+    height: 5px;
+    display: block;
+    margin: 6px 0; }
+
+.menu-response.active {
+  position: relative;
+  transition: 400ms; }
+  .menu-response.active .smp-line {
+    transition: 400ms; }
+    .menu-response.active .smp-line:first-of-type {
+      transform: rotate(45deg);
+      margin: 0;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 35px; }
+    .menu-response.active .smp-line:nth-of-type(2) {
+      opacity: 0; }
+    .menu-response.active .smp-line:last-of-type {
+      transform: rotate(-45deg);
+      margin: 0;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 35px; }
 
 .smp-banner {
   width: 100%;
   height: 450px;
   background-color: pink; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    .smp-banner {
+      margin-top: 30px; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .smp-banner {
+      margin-top: 30px; } }
   .smp-banner .smp-text .smp-text-A {
     line-height: 1.4;
     margin-top: 30px; }
 
-.smp-about {
+.smp-about-section {
   margin-top: 50px;
+  padding: 50px;
   text-align: center; }
-  .smp-about .smp-about-text {
+  @media (min-width: 440px) and (max-width: 767px) {
+    .smp-about-section {
+      padding: 30px 0; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .smp-about-section {
+      padding: 30px 0; } }
+  .smp-about-section .smp-about-text {
     margin-bottom: 40px; }
-    .smp-about .smp-about-text .smp-title-B {
+    .smp-about-section .smp-about-text .smp-title-B {
       margin-top: 20px; }
-    .smp-about .smp-about-text .smp-text-A {
+    .smp-about-section .smp-about-text .smp-text-A {
       margin-top: 20px; }
-      .smp-about .smp-about-text .smp-text-A:first-of-type {
+      .smp-about-section .smp-about-text .smp-text-A:first-of-type {
         margin-top: 40px; }
 
-.smp-testimony {
+.smp-testimony-section {
   margin-top: 50px;
   padding: 50px;
   background-color: #efefef; }
-  .smp-testimony .smp-title-B {
+  @media (min-width: 440px) and (max-width: 767px) {
+    .smp-testimony-section {
+      padding: 30px 0; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .smp-testimony-section {
+      padding: 30px 0; } }
+  .smp-testimony-section .smp-title-B {
     text-align: center; }
-  .smp-testimony .smp-text-A {
+  .smp-testimony-section .smp-text-A {
     margin-top: 30px;
     text-align: center; }
-  .smp-testimony .smp-carousel-testimony .d-flex {
+  .smp-testimony-section .smp-carousel-testimony .d-flex {
     margin-top: 20px; }
-  .smp-testimony .smp-carousel-testimony .smp-blockquote {
+  .smp-testimony-section .smp-carousel-testimony .smp-blockquote {
     margin-top: 20px; }
-  .smp-testimony .carousel-indicators {
+  .smp-testimony-section .carousel-indicators {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -131,24 +257,43 @@ body {
     list-style: none;
     height: 100%;
     margin-top: 60px; }
-    .smp-testimony .carousel-indicators li {
+    .smp-testimony-section .carousel-indicators li {
       width: 12px;
       height: 12px;
       background-color: #dddddd;
       border-radius: 100%;
       cursor: pointer; }
-    .smp-testimony .carousel-indicators .active {
+    .smp-testimony-section .carousel-indicators .active {
       background-color: #6e6e6e; }
 
 .smp-services-section {
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding: 50px; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    .smp-services-section {
+      padding: 30px 0; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .smp-services-section {
+      padding: 30px 0; } }
   .smp-services-section .smp-text-A {
     margin-top: 30px; }
   .smp-services-section .smp-services {
     margin-top: 50px; }
+    @media (min-width: 440px) and (max-width: 767px) {
+      .smp-services-section .smp-services {
+        flex-direction: column !important; } }
+    @media (min-width: 320px) and (max-width: 439px) {
+      .smp-services-section .smp-services {
+        flex-direction: column !important; } }
   .smp-services-section .smp-service-image {
     height: 300px;
     background-color: pink; }
+    @media (min-width: 440px) and (max-width: 767px) {
+      .smp-services-section .smp-service-image {
+        margin-top: 30px; } }
+    @media (min-width: 320px) and (max-width: 439px) {
+      .smp-services-section .smp-service-image {
+        margin-top: 30px; } }
   .smp-services-section .smp-service-description {
     margin-top: 50px; }
     .smp-services-section .smp-service-description .smp-text-A {
@@ -172,6 +317,12 @@ body {
   background-color: #efefef;
   padding: 50px;
   margin-top: 50px; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    .smp-contact-section {
+      padding: 30px 0; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .smp-contact-section {
+      padding: 30px 0; } }
   .smp-contact-section .smp-text-A {
     margin-top: 20px; }
   .smp-contact-section .smp-button {
@@ -213,6 +364,14 @@ body {
       padding: 12px;
       border: none;
       border-bottom: 2pt solid #617080; }
+      @media (min-width: 440px) and (max-width: 767px) {
+        .smp-form .wpcf7 form input.smp-input {
+          width: 100%;
+          font-size: 1em; } }
+      @media (min-width: 320px) and (max-width: 439px) {
+        .smp-form .wpcf7 form input.smp-input {
+          width: 100%;
+          font-size: 1em; } }
     .smp-form .wpcf7 form textarea#smp-input-text-area {
       width: 740px;
       height: 40px;
@@ -221,6 +380,14 @@ body {
       border: none;
       border-bottom: 2pt solid #617080;
       margin-top: 20px; }
+      @media (min-width: 440px) and (max-width: 767px) {
+        .smp-form .wpcf7 form textarea#smp-input-text-area {
+          width: 100%;
+          font-size: 1em; } }
+      @media (min-width: 320px) and (max-width: 439px) {
+        .smp-form .wpcf7 form textarea#smp-input-text-area {
+          width: 100%;
+          font-size: 1em; } }
     .smp-form .wpcf7 form p {
       display: flex;
       justify-content: center; }
@@ -232,17 +399,38 @@ body {
         outline: none;
         border: none;
         font-size: 1.1em;
-        position: relative; }
+        position: relative;
+        cursor: pointer; }
+        @media (min-width: 440px) and (max-width: 767px) {
+          .smp-form .wpcf7 form p input#smp-input-submit {
+            width: 100%;
+            font-size: 1em; } }
+        @media (min-width: 320px) and (max-width: 439px) {
+          .smp-form .wpcf7 form p input#smp-input-submit {
+            width: 100%;
+            font-size: 1em; } }
       .smp-form .wpcf7 form p .ajax-loader {
         position: absolute;
-        bottom: 0px; }
+        bottom: 0; }
 
 .smp-info-section {
   margin-top: 50px; }
+  @media (min-width: 440px) and (max-width: 767px) {
+    .smp-info-section .smp-title-B {
+      padding: 0 20px; } }
+  @media (min-width: 320px) and (max-width: 439px) {
+    .smp-info-section .smp-title-B {
+      padding: 0 20px; } }
   .smp-info-section .smp-info-items {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+    @media (min-width: 440px) and (max-width: 767px) {
+      .smp-info-section .smp-info-items {
+        flex-direction: column; } }
+    @media (min-width: 320px) and (max-width: 439px) {
+      .smp-info-section .smp-info-items {
+        flex-direction: column; } }
     .smp-info-section .smp-info-items .smp-info-item {
       display: flex;
       align-items: center;
@@ -252,6 +440,12 @@ body {
       height: 270px;
       text-align: center;
       margin-top: 50px; }
+      @media (min-width: 440px) and (max-width: 767px) {
+        .smp-info-section .smp-info-items .smp-info-item {
+          margin-top: 20px; } }
+      @media (min-width: 320px) and (max-width: 439px) {
+        .smp-info-section .smp-info-items .smp-info-item {
+          margin-top: 20px; } }
       .smp-info-section .smp-info-items .smp-info-item .smp-info-title {
         font-size: 1.1em;
         color: #617080;
@@ -282,6 +476,10 @@ body {
     height: 80px; }
     .smp-footer .smp-copyright .smp-copyright-text {
       font-size: 1.1em;
-      color: #ffffff; }
+      color: #ffffff;
+      text-align: center; }
+
+#wpadminbar {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

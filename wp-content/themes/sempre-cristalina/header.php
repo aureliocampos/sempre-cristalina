@@ -14,23 +14,23 @@
 <header id="smp-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-9">
                 <div class="smp-logo">
                     <img src="#" class="smp-img-logo embed-responsive" alt="">
                 </div>
             </div>
-            <div class="col-lg-8">
-                <nav class="smp-nav">
-                    <ul class="smp-nav-itens d-flex flex-row justify-content-around">
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Home</a></li>
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Depoimentos</a></li>
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Sobre Nós</a></li>
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Serviços</a></li>
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Promoções</a></li>
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Dicas</a></li>
-                        <li class="smp-nav-item"><a class="smp-nav-link" href="#">Contato</a></li>
-                    </ul>
-                </nav>
+            <div class="col-3 menu-response">
+                <span class="smp-line"></span>
+                <span class="smp-line"></span>
+                <span class="smp-line"></span>
+            </div>
+            <div class="menu-desk col-lg-8 col-md-8 col-sm-8 col-12">
+
+                <?php wp_nav_menu( array(
+                        'theme_location'    => 'menu-header',
+                        'container_class'   => 'smp-nav',
+                        'menu_class'        => 'smp-nav-items'
+                ) ); ?>
             </div>
         </div>
     </div>

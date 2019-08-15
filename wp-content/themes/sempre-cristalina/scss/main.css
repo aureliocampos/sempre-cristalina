@@ -125,12 +125,6 @@ body {
     margin-top: 20px; }
   .smp-testimony .carousel-indicators {
     position: relative;
-    /* position: absolute; */
-    /* right: 0; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* z-index: 15; */
-    /* display: -webkit-box; */
     display: -ms-flexbox;
     display: flex;
     justify-content: center;
@@ -145,5 +139,33 @@ body {
       cursor: pointer; }
     .smp-testimony .carousel-indicators .active {
       background-color: #6e6e6e; }
+
+.smp-services-section {
+  margin-top: 50px; }
+  .smp-services-section .smp-text-A {
+    margin-top: 30px; }
+  .smp-services-section .smp-services {
+    margin-top: 50px; }
+  .smp-services-section .smp-service-image {
+    height: 300px;
+    background-color: pink; }
+  .smp-services-section .smp-service-description {
+    margin-top: 50px; }
+    .smp-services-section .smp-service-description .smp-text-A {
+      margin-top: 20px; }
+    .smp-services-section .smp-service-description .smp-services-title {
+      font-size: 1.5em; }
+  .smp-services-section .smp-service-checklist {
+    margin-top: 50px; }
+    .smp-services-section .smp-service-checklist .smp-checklist-items {
+      background-color: #617080;
+      padding: 25px;
+      width: 420px; }
+      .smp-services-section .smp-service-checklist .smp-checklist-items .smp-checklist-item {
+        font-size: 1.1em;
+        color: #ffffff;
+        margin: 10px 0; }
+        .smp-services-section .smp-service-checklist .smp-checklist-items .smp-checklist-item i {
+          margin-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */

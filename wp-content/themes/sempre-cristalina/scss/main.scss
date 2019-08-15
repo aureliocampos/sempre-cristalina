@@ -5,6 +5,7 @@ $margin-text    : 20px;
 $margin-section : 50px;
 
 //colors
+$c-white        : #ffffff;
 $c-black        : #000000;
 $c-black-lead   : #474453;
 $c-gray-blue    : #617080;
@@ -127,12 +128,7 @@ body {
         }
     }
     .carousel-indicators {
-        position: relative;/* position: absolute; */
-        /* right: 0; */
-        /* bottom: 0; */
-        /* left: 0; */
-        /* z-index: 15; */
-        /* display: -webkit-box; */
+        position: relative;
         display: -ms-flexbox;
         display: flex;
         justify-content: center;
@@ -151,3 +147,44 @@ body {
         }
     }
 }
+
+.smp-services-section {
+    margin-top: $margin-section;
+    .smp-text-A {
+        margin-top: 30px;
+    }
+    .smp-services {
+        margin-top: $margin-section;
+    }
+    .smp-service-image {
+        height: 300px;
+        background-color: pink;
+        img {}
+    }
+    .smp-service-description {
+        margin-top: $margin-section;
+        .smp-text-A {
+            margin-top: 20px;
+        }
+        .smp-services-title {
+            font-size: 1.5em;
+        }
+    }
+    .smp-service-checklist {
+        margin-top: $margin-section;
+        .smp-checklist-items {
+            background-color: $c-gray-blue;
+            padding: 25px;
+            width: 420px;
+            .smp-checklist-item {
+                font-size: 1.1em;
+                color: $c-white;
+                margin: 10px 0;
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+

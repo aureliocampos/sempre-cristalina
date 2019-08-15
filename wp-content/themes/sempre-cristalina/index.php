@@ -11,6 +11,7 @@
 <main class="smp-main">
     <?php get_template_part('includes/about', 'smp' ); ?>
     <?php get_template_part('includes/testimony', 'smp' ); ?>
+    <?php get_template_part('includes/services', 'smp' ); ?>
 </main>
 
 <?php get_footer();?>

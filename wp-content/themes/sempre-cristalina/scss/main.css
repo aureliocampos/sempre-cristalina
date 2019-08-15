@@ -168,4 +168,120 @@ body {
         .smp-services-section .smp-service-checklist .smp-checklist-items .smp-checklist-item i {
           margin-right: 10px; }
 
+.smp-contact-section {
+  background-color: #efefef;
+  padding: 50px;
+  margin-top: 50px; }
+  .smp-contact-section .smp-text-A {
+    margin-top: 20px; }
+  .smp-contact-section .smp-button {
+    margin-top: 50px; }
+    .smp-contact-section .smp-button .smp-button-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      padding: 20px;
+      background-color: #617080;
+      border-radius: 5px;
+      color: white;
+      font-weight: 800;
+      font-size: 1.1em; }
+      .smp-contact-section .smp-button .smp-button-link i {
+        margin-right: 10px;
+        font-size: 2em;
+        font-weight: 400 !important; }
+      .smp-contact-section .smp-button .smp-button-link:hover {
+        text-decoration: none; }
+
+.smp-form {
+  margin-top: 50px; }
+  .smp-form .smp-title-B {
+    text-align: center; }
+  .smp-form .wpcf7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; }
+    .smp-form .wpcf7 form .smp-input:focus {
+      outline: none; }
+    .smp-form .wpcf7 form input.smp-input {
+      width: 740px;
+      font-size: 1.2em;
+      background: transparent;
+      margin: 10px 0;
+      padding: 12px;
+      border: none;
+      border-bottom: 2pt solid #617080; }
+    .smp-form .wpcf7 form textarea#smp-input-text-area {
+      width: 740px;
+      height: 40px;
+      font-size: 1.2em;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2pt solid #617080;
+      margin-top: 20px; }
+    .smp-form .wpcf7 form p {
+      display: flex;
+      justify-content: center; }
+      .smp-form .wpcf7 form p input#smp-input-submit {
+        margin-top: 50px;
+        background: #617080;
+        color: #ffffff;
+        padding: 20px;
+        outline: none;
+        border: none;
+        font-size: 1.1em;
+        position: relative; }
+      .smp-form .wpcf7 form p .ajax-loader {
+        position: absolute;
+        bottom: 0px; }
+
+.smp-info-section {
+  margin-top: 50px; }
+  .smp-info-section .smp-info-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .smp-info-section .smp-info-items .smp-info-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 220px;
+      height: 270px;
+      text-align: center;
+      margin-top: 50px; }
+      .smp-info-section .smp-info-items .smp-info-item .smp-info-title {
+        font-size: 1.1em;
+        color: #617080;
+        font-weight: 800;
+        height: 45px;
+        display: flex;
+        align-items: center; }
+      .smp-info-section .smp-info-items .smp-info-item i {
+        font-size: 6em;
+        color: #617080;
+        margin-top: 20px; }
+      .smp-info-section .smp-info-items .smp-info-item .smp-info-text {
+        height: 68px;
+        font-size: 1.1em;
+        color: #617080;
+        font-weight: 600;
+        margin-top: 20px; }
+
+.smp-map-section {
+  margin-top: 50px; }
+
+.smp-footer {
+  background-color: #000000; }
+  .smp-footer .smp-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; }
+    .smp-footer .smp-copyright .smp-copyright-text {
+      font-size: 1.1em;
+      color: #ffffff; }
+
 /*# sourceMappingURL=main.css.map */

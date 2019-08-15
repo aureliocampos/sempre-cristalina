@@ -147,7 +147,6 @@ body {
         }
     }
 }
-
 .smp-services-section {
     margin-top: $margin-section;
     .smp-text-A {
@@ -184,6 +183,147 @@ body {
                     margin-right: 10px;
                 }
             }
+        }
+    }
+}
+.smp-contact-section {
+    background-color: $c-light-gray;
+    padding: $margin-section;
+    margin-top: $margin-section;
+    .smp-text-A {
+        margin-top: $margin-text;
+    }
+    .smp-button {
+        margin-top: $margin-section;
+        .smp-button-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            padding: 20px;
+            background-color: $c-gray-blue;
+            border-radius: 5px;
+            color: white;
+            font-weight: 800;
+            font-size: 1.1em;
+            i {
+                margin-right: 10px;
+                font-size: 2em;
+                font-weight: 400 !important;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.smp-form {
+    margin-top: $margin-section;
+    .smp-title-B {
+        text-align: center;
+    }
+    .wpcf7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: $margin-text;
+        form {
+            .smp-input {
+                &:focus {
+                    outline: none;
+                }
+            }
+            input.smp-input {
+                width: 740px;
+                font-size: 1.2em;
+                background: transparent;
+                margin: 10px 0;
+                padding: 12px;
+                border: none;
+                border-bottom: 2pt solid $c-gray-blue;
+            }
+            textarea#smp-input-text-area {
+                width: 740px;
+                height: 40px;
+                font-size: 1.2em;
+                background-color: transparent;
+                border: none;
+                border-bottom: 2pt solid $c-gray-blue;
+                margin-top: 20px;
+            }
+            p {
+                display: flex;
+                justify-content: center;
+                    input#smp-input-submit {
+                        margin-top: 50px;
+                        background: $c-gray-blue;
+                        color: $c-white;
+                        padding: 20px;
+                        outline: none;
+                        border: none;
+                        font-size: 1.1em;
+                        position: relative;
+                }
+                .ajax-loader {
+                    position: absolute;
+                    bottom: 0px;
+                }
+            }
+        }
+    }
+}
+.smp-info-section {
+    margin-top: $margin-section;
+    .smp-title-B {}
+    .smp-info-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .smp-info-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 220px;
+            height: 270px;
+            text-align: center;
+            margin-top: $margin-section;
+            .smp-info-title {
+                font-size: 1.1em;
+                color: $c-gray-blue;
+                font-weight: 800;
+                height: 45px;
+                display: flex;
+                align-items: center;
+            }
+            i {
+                font-size: 6em;
+                color: $c-gray-blue;
+                margin-top: $margin-text;
+            }
+            .smp-info-text {
+                height: 68px;
+                font-size: 1.1em;
+                color: $c-gray-blue;
+                font-weight: 600;
+                margin-top: $margin-text;
+            }
+        }
+    }
+}
+.smp-map-section {
+    margin-top: $margin-section;
+}
+.smp-footer{
+    background-color: $c-black;
+    .smp-copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        .smp-copyright-text {
+            font-size: 1.1em;
+            color: $c-white;
         }
     }
 }
